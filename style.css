@@ -19,7 +19,6 @@ html,body
 #main
 {
     width: 100%;
-    background-color: rgb(245, 245, 255);
 }
 
 #home
@@ -95,17 +94,12 @@ html,body
     overflow: hidden;
     width: 100%;
     height: 15vw;
-    background-color: red;
 }
 
 #susimagewrapper img
 {
-    width: 120%;
-    height: 120%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -119,7 +113,7 @@ html,body
 #ephe #headings
 {
     position: absolute;
-    top: -15%;
+    top: -19%;
     left: -14%;
 }
 
@@ -334,6 +328,7 @@ html,body
     width: 65%;
     height: 70vh;
     background-color: red;
+    
 }
 
 #bimg img
@@ -342,7 +337,6 @@ html,body
     height: 100%;
     object-fit: cover;
     object-position: 0% 70%;
-    
 }
 
 #btext
@@ -377,6 +371,7 @@ html,body
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 #future video
@@ -386,7 +381,7 @@ html,body
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    opacity: 1;
+    opacity: 0;
 }
 
 #ftext
@@ -399,6 +394,7 @@ html,body
     background-color: #fff;
     padding: 1vw 2vw;
     border-radius: 15px;
+    box-shadow: 1px 1px 3px;
 }
 
 #ftext button
@@ -413,4 +409,5 @@ html,body
     color: #6f6f6f;
     text-transform: capitalize;
     margin-top: 10px;
+    box-shadow: 1px 1px 1px;
 }
