@@ -113,7 +113,7 @@ html,body
 #ephe #headings
 {
     position: absolute;
-    top: -19%;
+    top: -15%;
     left: -14%;
 }
 
@@ -130,7 +130,6 @@ html,body
     font-weight: 400;
     letter-spacing: -.3vw;
     line-height: 1;
-    -webkit-text-stroke: rgb(56, 239, 0);
 }
 
 #ephe p
