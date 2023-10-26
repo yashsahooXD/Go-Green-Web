@@ -13,5 +13,5 @@ gsap.from(".nlink",{
     opacity: 0,
 })
 
-// sheru js to animate images accordingly
+// shery js to animate images accordingly
 

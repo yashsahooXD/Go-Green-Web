@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Nimbus Sans L;
+    src: url(nimbus-sans-l.regular.woff2);
+}
 *
 {
     margin: 0px;
